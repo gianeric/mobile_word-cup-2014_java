@@ -1,0 +1,176 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ResultadosActivity">
+
+    <TextView
+        android:id="@+id/textViewTt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Grupo A"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40px"
+        android:text="País" />
+
+       <TextView
+           android:id="@+id/textView1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="130px"
+           android:layout_marginTop="-26px"
+           android:text="P" />
+          
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="290px"
+            android:layout_marginTop="-26px"
+            android:text="G" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40px" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10px" >
+            
+            <TextView
+        	    android:id="@+id/selecao1"
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:text="TextView"
+        	     />
+        	<TextView
+       		  android:id="@+id/pontos1"
+      		  android:layout_width="wrap_content"
+      		  android:layout_height="wrap_content"
+      		  android:layout_alignParentLeft="true"
+      		  android:layout_alignParentTop="true"
+      		  android:layout_marginLeft="40dp"
+      		  android:text="TextView" />
+
+        	<TextView
+        	    android:id="@+id/txtSaldogols1"
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="70dp"
+        	    android:text="TextView" />
+           
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_marginTop="20px" >
+            
+            <TextView
+        	    android:id="@+id/selecao2"
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:text="TextView" />   
+        	         
+                <TextView
+       			 android:id="@+id/pontos2"
+       			 android:layout_width="wrap_content"
+      			 android:layout_height="wrap_content"
+       			 android:layout_alignLeft="@+id/txtSaldogols1"
+      			 android:layout_below="@+id/txtSaldogols1"
+      		  android:layout_marginLeft="40dp"
+      			 android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/txtSaldogols2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="70dp"
+                    android:text="TextView" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_marginTop="20px" >
+           
+            <TextView
+        	    android:id="@+id/selecao3"
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:text="TextView" />                
+   			
+            <TextView
+   		     android:id="@+id/pontos3"
+  		      android:layout_width="wrap_content"
+   		     android:layout_height="wrap_content"
+   		     android:layout_alignLeft="@+id/txtSaldogols2"
+   		     android:layout_below="@+id/txtSaldogols2"
+      		  android:layout_marginLeft="40dp"
+   		     android:text="TextView" />
+
+            <TextView
+                android:id="@+id/txtSaldogols3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:text="TextView" />
+            
+   		 </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_marginTop="20px" >
+          
+          <TextView
+        	    android:id="@+id/selecao4"
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:text="TextView" /> 
+   		 <TextView
+     		   android:id="@+id/pontos4"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    			android:layout_alignRight="@+id/txtSaldogols3"
+   		    	android:layout_below="@+id/txtSaldogols3"
+      		  android:layout_marginLeft="40dp"
+     		   android:text="TextView" />
+
+   		 <TextView
+   		     android:id="@+id/txtSaldogols4"
+   		     android:layout_width="wrap_content"
+   		     android:layout_height="wrap_content"
+   		     android:layout_marginLeft="70dp"
+   		     android:text="TextView" />
+  			 
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btnVoltaGrupoo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="Voltar aos grupos" />
+
+</LinearLayout>
